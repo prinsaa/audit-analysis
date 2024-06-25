@@ -12,13 +12,27 @@ function App() {
           by: Duygu “DC” Celik, Sean Connelly, Tanner DeVore, Prinsa Patel
         </h5>
 
-        <div className="flex mt-4">
-          <button className="bg-cteal hover:bg-slate-700 text-white text-3xl font-bold py-2 px-4 rounded ml-6 transition duration-300">
-            Read Here
-          </button>
-          <button className="bg-cteal hover:bg-slate-700 text-white text-3xl font-bold py-2 px-4 rounded ml-6 transition duration-300">
-            See Code
-          </button>
+        <div className="flex justify-center">
+          <a
+            href="https://medium.com/@spconnel/commercial-insurance-exposure-audit-attribution-245a0020ca23"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-7"
+          >
+            <button className="bg-cteal hover:bg-slate-700 text-white text-3xl font-bold py-2 px-4 rounded transition duration-300">
+              Read Here
+            </button>
+          </a>
+          <a
+            href="https://github.com/prinsaa/audit-analysis"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-6"
+          >
+            <button className="bg-cteal hover:bg-slate-700 text-white text-3xl font-bold py-2 px-4 rounded transition duration-300">
+              See Code
+            </button>
+          </a>
         </div>
       </div>
     </div>
